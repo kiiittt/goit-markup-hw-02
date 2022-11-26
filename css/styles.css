@@ -1,0 +1,153 @@
+
+:root{
+--PrimaryBrand: #4D5AE5;
+--DarkColor: #2E2F42;
+--SuccessColor: #31D0AA;
+--TextColor: #434455;
+--SubtleText: #8E8F99;
+--Accent: #E7E9FC;
+--Light : #F4F4FD;
+}
+
+body{
+font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+list-style-type: none;
+}
+
+.header{
+background-color: #fff; 
+}
+
+.web{
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: var(--PrimaryBrand);
+width: 44px;
+height: 24px;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+}
+
+.studio{
+font-family: 'Raleway';
+font-style: normal;
+color: var(--DarkColor);
+width: 44px;
+height: 24px;font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+}
+
+.header-nav{
+color: var(--DarkColor);
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+
+.studio-link:visited{
+color: var(--PrimaryBrand);
+}
+
+.mail, .tel{
+color: var(--TextColor);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+.mail:hover, .mail:focus{
+color: var(--PrimaryBrand);
+}
+
+.tel:hover, .tel:focus{
+color: var(--PrimaryBrand);
+}
+
+.hero{
+background-color: var(--DarkColor);
+width: 1440px;
+height: 603px;
+}
+
+.hero-title{
+color: #fff;
+font-weight: 600;
+font-size: 56px;
+line-height: 60px;
+}
+
+.button{
+background-color: var(--PrimaryBrand);
+width: 170px;
+height: 51px;
+left: 635px;
+top: 432px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: 0px;
+cursor: pointer;
+}
+
+    
+.button-text{
+color: #fff;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+}
+
+.advantages-title{
+color: transparent;
+}
+
+.advantages-list{
+
+}
+
+.header-list{
+color: var(--TextColor);
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+}
+
+.text-list{
+color: var(--SubtleText);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+.section-title{
+color: var(--DarkColor);
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+}
+
+.footer{
+background-color: var(--DarkColor);
+}
+
+.studio-footer{
+font-family: 'Raleway';
+color: #F4F4FD;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+}
+
+.footer-text{
+color: var(--Light);
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
